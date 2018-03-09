@@ -37,7 +37,5 @@ def scrape():
     return redirect("http://localhost:5000/", code=302)
 
 
-    #db.mars.find()
-
 if __name__ == '__main__':
     app.run(debug=True)
